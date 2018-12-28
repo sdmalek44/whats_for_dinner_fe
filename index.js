@@ -1,8 +1,6 @@
 const loginUser = () => {
   var email = document.getElementById("email").value
   var password = document.getElementById("password").value
-  console.log(email)
-  console.log(password)
   fetch(`https://api-whats-for-dinner.herokuapp.com/api/v1/login`, {
     method: "post",
     headers: {
