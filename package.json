@@ -1,0 +1,27 @@
+{
+  "name": "whats_for_dinner_fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdmalek44/whats_for_dinner_fe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdmalek44/whats_for_dinner_fe/issues"
+  },
+  "homepage": "https://github.com/sdmalek44/whats_for_dinner_fe#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "to": "^0.2.9",
+    "update": "^0.7.4"
+  }
+}
