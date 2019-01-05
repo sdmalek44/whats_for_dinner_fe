@@ -24,4 +24,8 @@ const loginUser = () => {
   }
 }
 
+if (sessionStorage.user_token){
+  document.location = "search.html"
+}
+
 document.getElementById("login").addEventListener("click", loginUser)
