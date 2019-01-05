@@ -26,4 +26,8 @@ function createUser(){
   }
 }
 
+if (sessionStorage.user_token){
+  document.location = "search.html"
+}
+
 document.getElementById('new-user').addEventListener("click", createUser)
