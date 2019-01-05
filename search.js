@@ -6,4 +6,10 @@ const logOut = () => {
   document.location = 'index.html'
 }
 
+const searchRecipes = () => {
+  
+}
+
 document.getElementById('logout').addEventListener('click', logOut)
+
+document.getElementById('search').addEventListener('click', searchRecipes)
