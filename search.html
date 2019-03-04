@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="search.css">
     <title>Whats For Dinner</title>
   </head>
   <body>
@@ -13,18 +14,36 @@
     <div class="">
       Allergies
     </div>
-    <div id="allergies">
-      <input type="checkbox" value="volvo">Wheat</input>
-      <input type="checkbox" value="gluten">Gluten</input>
-      <input type="checkbox" value="peanut">Peanut</input>
-      <input type="checkbox" value="tree nut">Tree Nut</input>
-      <input type="checkbox" value="dairy">Dairy</input>
-      <input type="checkbox" value="egg">Egg</input>
-      <input type="checkbox" value="seafood">Seafood</input>
-      <input type="checkbox" value="sesame">Sesame</input>
-      <input type="checkbox" value="soy">Soy</input>
-      <input type="checkbox" value="sulfite">Sulfite</input>
+    <div class="multiselect">
+    <div class="selectBox" onclick="showCheckboxes()">
+      <select>
+        <option>Select an option</option>
+      </select>
+      <div class="overSelect"></div>
     </div>
+    <div id="checkboxes">
+      <label for="wheat">
+        <input class="cb" type="checkbox" value="wheat">Wheat</label>
+      <label for="gluten">
+        <input class="cb" type="checkbox" value="gluten">Gluten</label>
+      <label for="peanut">
+        <input class="cb" type="checkbox" value="peanut">Peanut</label>
+      <label for="tree nut">
+        <input class="cb" type="checkbox" value="tree nut">Tree Nut</label>
+      <label for="dairy">
+        <input class="cb" type="checkbox" value="dairy">Dairy</label>
+      <label for="egg">
+        <input class="cb" type="checkbox" value="egg">Egg</label>
+      <label for="seafood">
+        <input class="cb" type="checkbox" value="seafood">Seafood</label>
+      <label for="sesame">
+        <input class="cb" type="checkbox" value="sesame">Sesame</label>
+      <label for="soy">
+        <input class="cb" type="checkbox" value="soy">Soy</label>
+      <label for="sulfite">
+        <input class="cb" type="checkbox" value="sulfite">Sulfite</label>
+    </div>
+  </div>
     <div class="">Cook Time</div>
     <input type="number" name="minutes" placeholder="Minutes"><div>
     <button id="search">Search</button>
